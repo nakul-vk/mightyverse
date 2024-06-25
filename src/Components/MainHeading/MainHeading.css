@@ -1,0 +1,63 @@
+.main-heading {
+  width: fit-content;
+}
+.main-text {
+  font-weight: bold;
+}
+.upper {
+  color: #ee5454;
+  position: absolute;
+  top: 0;
+}
+.lower {
+  color: #000000;
+  position: relative;
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 600px) {
+  .main-heading {
+    letter-spacing: normal;
+    margin-top: 20px;
+  }
+  .main-text {
+    font-size: 60px;
+  }
+  .upper {
+    top: 20px;
+  }
+  .lower {
+    top: 5px;
+    right: 5px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .main-heading {
+    letter-spacing: normal;
+    margin-top: 20px;
+  }
+  .main-text {
+    font-size: 90px;
+  }
+  .upper {
+    top: 20px;
+  }
+  .lower {
+    top: 5px;
+    right: 5px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .main-heading {
+    letter-spacing: 0.5em;
+  }
+  .main-text {
+    font-size: 128px;
+  }
+  .lower {
+    top: 7px;
+    right: 7px;
+  }
+}

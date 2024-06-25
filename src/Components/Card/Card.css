@@ -1,0 +1,22 @@
+.card,
+.card-wrapper {
+  width: fit-content;
+}
+.card {
+  color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 250px;
+  height: 300px;
+  border-radius: 5px;
+  display: flex;
+  cursor: pointer;
+}
+.info {
+  align-self: flex-end;
+  padding-bottom: 10px;
+  width: fit-content;
+  height: fit-content;
+  margin-left: 10px;
+}
